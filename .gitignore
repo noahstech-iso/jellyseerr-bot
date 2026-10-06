@@ -1,0 +1,37 @@
+# Python bytecode and tooling caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and build output
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local secrets and runtime configuration
+.env
+.env.*
+!.env.example
+api_keys*
+bot_config.sqlite3*
+*.sqlite
+*.sqlite3
+*.db
+jellyseerr-bot.service
+*.log
+*.log.*
+*.swp
+*.swo
