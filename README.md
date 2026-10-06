@@ -61,4 +61,3 @@ to accept the latest pending request.
 The Jellyseerr API key is stored unencrypted in `bot_config.sqlite3` beside
 `bot.py`. Use HTTPS for remote Jellyseerr instances. The Discord bot token is
 hard-coded in `bot.py`; keep that file private and never publish a real token.
-If a token is exposed, regenerate it in the Discord Developer Portal.
