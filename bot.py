@@ -63,7 +63,6 @@ class ConfigStore:
             ).fetchone()
         return (row[0], row[1]) if row else None
 
-
 def validate_jellyseerr_url(base_url: str) -> str:
     normalized_url = base_url.strip().rstrip("/")
     parsed_url = urlsplit(normalized_url)
